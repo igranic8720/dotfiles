@@ -362,7 +362,6 @@ assign [class="Firefox"] $ws2
 for_window [class="Firefox"] focus
 assign [class="Nautilus"] $ws1
 assign [class="discord"] $ws4
-assign [class="Alacritty"] $ws5
 assign [class="Code"] $ws5
 
 ## Spotify is special ##
