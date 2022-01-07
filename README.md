@@ -9,6 +9,8 @@ There is a large change to vim keybinds when using colemak.  These cha
 
 - l is swapped to append.  I like append more as I find myself at the end of a word or line more often than not, thus i use append as the way to switch into insert mode.
 
+![Picture of vimrc layout](/colemak-vim-hnei.png)
+
 ## **i3/regolith**
 i3/regolith dotfiles are mostly normal for now. The changes made are localized to window spawning for the time being.
 
@@ -20,3 +22,4 @@ i3/regolith dotfiles are mostly normal for now. The changes made are localized t
 
 ## **Alacritty**
 Modified gotham theme for better readability. Why do people hate reading terminals? Half the regular theme is unreadable.
+
