@@ -8,8 +8,8 @@ inoremap <c-j> <c-n>
 cnoremap <c-j> <c-n>
 
 " rotate some keys about to get qwerty "hjkl" back for movement
-map n <down>
-map e <up>
+map e <down>
+map n <up>
 map i <right>
 
 " move these keys to their qwerty positions because they are
@@ -29,9 +29,9 @@ noremap j e
 noremap J E
 
 " window movement
-nnoremap <c-w>n <c-w>j
+nnoremap <c-w>e <c-w>j
 nnoremap <c-w>i <c-w>l
-nnoremap <c-w>e <c-w>k
+nnoremap <c-w>n <c-w>k
 
 " qwerty <c-w>n and <c-w>i stolen but do nothing so map back
 nnoremap <c-w>k <c-w>n
