@@ -14,19 +14,20 @@ map i <right>
 
 " move these keys to their qwerty positions because they are
 " in the way of hjkl (and E for J)
-noremap k n
-noremap K N
+noremap j K
+" noremap J J
 noremap a i
 noremap A I
-noremap N J
-noremap E K
+noremap N N
+
+noremap E n
 noremap I L
 noremap l a
 noremap L A
 
 " this is the only key that isn't in qwerty or colemak position
-noremap j e
-noremap J E
+noremap k e
+noremap K E
 
 " window movement
 nnoremap <c-w>e <c-w>j
@@ -38,8 +39,8 @@ nnoremap <c-w>k <c-w>n
 nnoremap <c-w>l <c-w>i
 
 " pentadactyl binds ctrl-h to history otherwise
-map <c-h> <BS>
-cmap <c-h> <BS>
+" map <c-h> <BS>
+" cmap <c-h> <BS>
 
 " this nerdtree mapping interferes with movement
-let g:NERDTreeMapOpenExpl = "j"
+" let g:NERDTreeMapOpenExpl = "j"

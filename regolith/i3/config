@@ -370,7 +370,7 @@ for_window [class="Spotify"] move to workspace $ws3
 for_window [class="Spotify"] focus
 
 ## left monitor ##
-workspace 3 output DisplayPort-1 
+workspace 2 output DisplayPort-1 
 
 ## center monitor ##
 workspace 1 output DisplayPort-2
