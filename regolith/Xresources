@@ -4,6 +4,44 @@ gnome.wallpaper:
 gnome.gtk.theme: Flat-Remix-GTK-Blue-Dark
 gnome.icon.theme: Flat-Remix-Blue-Dark
 
+! special
+*.foreground:   #98d1ce
+*.background:   #0a0f14
+*.cursorColor:  #98d1ce
+
+! black
+*.color0:       #0a0f14
+*.color8:       #52c2cc
+
+! red
+*.color1:       #c33027
+*.color9:       #d26939
+
+! green
+*.color2:       #26a98b
+*.color10:      #30ffd0
+
+! yellow
+*.color3:       #edb54b
+*.color11:      #ffd077
+
+! blue
+*.color4:       #195465
+*.color12:      #2b8fac
+
+! magenta
+*.color5:       #4e5165
+*.color13:      #888ba5
+
+! cyan
+*.color6:       #33859d
+*.color14:      #599caa
+
+! white
+*.color7:       #98d1ce
+*.color15:      #d3ebe9
+
+
 #define color_base03   #181818
 #define color_base02   #3D3D3D
 #define color_base01   #5D5D5D
