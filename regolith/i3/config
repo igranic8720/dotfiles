@@ -359,6 +359,7 @@ workspace_layout $i3-wm.workspace.layout
 # Open applications on specific workspaces
 assign [class="Thunderbird"] $ws4
 assign [class="Firefox"] $ws2
+for_window [class="Firefox"] focus
 assign [class="Nautilus"] $ws1
 assign [class="discord"] $ws4
 assign [class="Alacritty"] $ws5
@@ -368,6 +369,8 @@ assign [class="Code"] $ws5
 ## it sets the window class after spawning. workaround is to spawn and move the window, then focus it ##
 for_window [class="Spotify"] move to workspace $ws3
 for_window [class="Spotify"] focus
+
+focus_on_window_activation focus
 
 ## left monitor ##
 workspace 2 output DisplayPort-1 
