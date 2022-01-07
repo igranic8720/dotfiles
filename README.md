@@ -4,7 +4,8 @@ Colemak Layout cuz i hate myself but love my fingers.
 https://colemak.com/
 
 ## **vimrc**
-There is a large change to vim keybinds when using colemak.  These cha
+There is a large change to vim keybinds when using colemak.  These changes can be seen on the picture below.  This vimrc is a slightly edited version of 
+https://github.com/insidewhy/colemak
 - Keys h,n,e and i are used for movement.  N and E are swapped for my terrible gaming/tetris muscle memory, but join and help are in the same place.
 
 - l is swapped to append.  I like append more as I find myself at the end of a word or line more often than not, thus i use append as the way to switch into insert mode.
