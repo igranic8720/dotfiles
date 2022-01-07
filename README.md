@@ -13,9 +13,9 @@ l is swapped to append. I like append more as I find myself at the end of a word
 i3/regolith dotfiles are mostly normal for now.
 
 Changes Include:
-    Changed how windows spawn to each monitor for my 3 monitor setup.Changed where numbered workspaces spawn to ease my hatred of changing where things are and how to get there.
+Changed how windows spawn to each monitor for my 3 monitor setup.Changed where numbered workspaces spawn to ease my hatred of changing where things are and how to get there.
 
-    Xresources changed to override the gap spacing and what names of workspaces are. Also overrided gnome settings from the theme midnight. I hated when i3 would randomly change themes on reload.
+Xresources changed to override the gap spacing and what names of workspaces are. Also overrided gnome settings from the theme midnight. I hated when i3 would randomly change themes on reload.
 
 <h2>Alacritty</h2>
 Modified gotham theme for better readability. Why do people hate reading terminals? Half the regular theme is unreadable.
