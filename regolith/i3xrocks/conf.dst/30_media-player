@@ -1,0 +1,8 @@
+# Media Player
+#
+# Displays media controls
+[media-player]
+command=$SCRIPT_DIR/mediaplayer
+instance=spotify
+interval=5
+signal=10
