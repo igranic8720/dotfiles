@@ -1,9 +1,24 @@
 i3-wm.gaps.inner.size: 15
+i3-wm.gaps.outer.size: -5
+i3-wm.hide.edge.borders: none
+i3-wm.gaps.smart : inverse_outer
+i3-wm.client.focused.color.border: "#52c2cc"
+i3-wm.client.focused.color.child_border: "#52c2cc"
+i3-wm.client.focused.color.background:"#52c2cc"
+i3-wm.client.focused.color.indicator: "#52c2cc"
+i3-wm.bar.workspace.focused.text.color: "#0a0f14"
+i3-wm.bar.workspace.focused.background.color: "#ffd077"
+i3-wm.bar.background.color: "#0a0f14"
+
+i3-wm.window.border.size: 3
+i3-wm.floatingwindow.border.size: 3
+
 
 gnome.wallpaper: 
 gnome.gtk.theme: Flat-Remix-GTK-Blue-Dark
 gnome.icon.theme: Flat-Remix-Blue-Dark
 
+! vscode xresources colours
 ! special
 *.foreground:   #98d1ce
 *.background:   #0a0f14

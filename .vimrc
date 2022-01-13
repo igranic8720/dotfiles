@@ -11,6 +11,7 @@ cnoremap <c-j> <c-n>
 map e <down>
 map n <up>
 map i <right>
+map <SPACE> <leader>
 
 " move these keys to their qwerty positions because they are
 " in the way of hjkl (and E for J)
@@ -44,3 +45,17 @@ nnoremap <c-w>l <c-w>i
 
 " this nerdtree mapping interferes with movement
 " let g:NERDTreeMapOpenExpl = "j"
+map <leader>tt :tabprev<cr>
+map <leader>tn :tabnext<cr>
+map <leader>t<leader> :tabnew<cr>
+map <leader>tc :tabclose<cr>
+map <leader>to :tabonly<cr>
+map <leader>w :w<cr>
+
+map <leader>= gg=G
+
+map <leader>e $
+
+set softtabstop=0 noexpandtab
+set shiftwidth=4
+set tabstop=4

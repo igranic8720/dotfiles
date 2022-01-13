@@ -376,7 +376,7 @@ workspace 2 output DisplayPort-1
 
 ## center monitor ##
 workspace 1 output DisplayPort-2
-workspace 5 output DisplayPort-5
+workspace 5 output DisplayPort-2
 
 ## vertical monitor ##
 workspace 4 output HDMI-A-3
@@ -554,6 +554,7 @@ bindsym $mod+r mode "Resize Mode"
 ###############################################################################
 
 # Disable titlebar
+for_window [class=.*] border pixel
 set_from_resource $i3-wm.window.border.size i3-wm.window.border.size 1
 set_from_resource $i3-wm.floatingwindow.border.size i3-wm.floatingwindow.border.size 1
 default_border pixel $i3-wm.window.border.size
@@ -566,8 +567,9 @@ gaps inner $i3-wm.gaps.inner.size
 gaps outer $i3-wm.gaps.outer.size
 
 # Only enable gaps on a workspace when there is at least one container
-set_from_resource $i3-wm.gaps.smart i3-wm.gaps.smart on
-smart_gaps $i3-wm.gaps.smart
+# set_from_resource $i3-wm.gaps.smart i3-wm.gaps.smart on
+
+# smart_gaps $i3-wm.gaps.smart
 
 # Enable popup during fullscreen
 set_from_resource $i3-wm.gaps.popup_during_fullscreen i3-wm.gaps.popup_during_fullscreen smart
